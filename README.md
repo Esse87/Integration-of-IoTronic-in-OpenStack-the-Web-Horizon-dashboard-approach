@@ -7,3 +7,5 @@ Assuming you've OpenStack and the Iotronic service installed on your host:
 You have to copy the "iotronic.py" file and the "__init__.py" file here: /usr/share/openstack -dashboard/openstack_dashboard/api/
 You have to copy the "_50_mydashboard.py" here:/usr/share/openstack -dashboard/openstack_dashboard/enabled
 You have to copy the "mydashboard" directory here: /usr/share/openstack-dashboard/openstack_dashboard/dashboards
+
+The Iotronic service allows you to use its functionality in Horizon, like adding a node, deleting a node, showing the list of the created nodes and showing the datails of single node, by the complex actions in the table.
